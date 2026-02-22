@@ -60,7 +60,6 @@ src/
 ├── App.jsx
 ├── main.jsx
 
-
 ---
 
 ## ▶️ How to Run the Project
