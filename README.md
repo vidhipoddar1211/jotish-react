@@ -1,16 +1,131 @@
-# React + Vite
+# 🌟 Employee Portal – React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean **Employee Management Portal** built using **React**.  
+This application demonstrates login authentication, employee listing, employee details, photo capture, and salary visualization.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🔐 Login with basic authentication
+- 📋 Employee list with salary & city
+- 👤 Individual employee details page
+- 📷 Camera capture & photo result page
+- 📊 Salary bar chart visualization
+- 🎨 Dark green modern UI (Lovable-inspired)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React, JavaScript
+- **Styling:** CSS / Tailwind-style utility classes
+- **Routing:** React Router DOM
+- **Charts:** Chart.js / Recharts
+- **Version Control:** Git & GitHub
+
+---
+
+## 📸 Application Screenshots
+
+### 🔐 Login Page
+![Login Page](src/assets/images/login.png)
+
+### 📋 Employee List
+![Employee List](src/assets/images/employee-list.png)
+
+### 👤 Employee Details
+![Employee Details](src/assets/images/employee-details.png)
+
+### 📷 Photo Result
+![Photo Result](src/assets/images/photo-result.png)
+
+### 📊 Salary Chart
+![Salary Chart](src/assets/images/salary-chart.png)
+
+---
+
+## 📂 Project Structure
+# 🌟 Employee Portal – React Application
+
+A simple and clean **Employee Management Portal** built using **React**.  
+This application demonstrates login authentication, employee listing, employee details, photo capture, and salary visualization.
+
+---
+
+## 🚀 Features
+
+- 🔐 Login with basic authentication
+- 📋 Employee list with salary & city
+- 👤 Individual employee details page
+- 📷 Camera capture & photo result page
+- 📊 Salary bar chart visualization
+- 🎨 Dark green modern UI (Lovable-inspired)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, JavaScript
+- **Styling:** CSS / Tailwind-style utility classes
+- **Routing:** React Router DOM
+- **Charts:** Chart.js / Recharts
+- **Version Control:** Git & GitHub
+
+---
+
+## 📸 Application Screenshots
+
+### 🔐 Login Page
+![Login Page](src/assets/images/login.png)
+
+### 📋 Employee List
+![Employee List](src/assets/images/employee-list.png)
+
+### 👤 Employee Details
+![Employee Details](src/assets/images/employee-details.png)
+
+### 📷 Photo Result
+![Photo Result](src/assets/images/photo-result.png)
+
+### 📊 Salary Chart
+![Salary Chart](src/assets/images/salary-chart.png)
+
+---
+
+## 📂 Project Structure
+src/
+├── assets/
+│ └── images/
+│ ├── login.png
+│ ├── employee-list.png
+│ ├── employee-details.png
+│ ├── photo-result.png
+│ └── salary-chart.png
+├── components/
+├── services/
+├── App.jsx
+├── main.jsx
+
+
+---
+
+## ▶️ How to Run the Project
+
+```bash
+npm install
+npm run dev
+
+Then open:
+👉 http://localhost:5173
+
+
+🔑 Login Credentials (Demo)
+Username: testuser
+Password: Test123
+
+
+📌 Notes
+This project is built for learning & assignment purposes
+Backend is not connected (static / mock data used)
+UI inspired by modern dashboard designs
